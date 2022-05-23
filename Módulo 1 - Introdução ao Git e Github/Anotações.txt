@@ -1,0 +1,40 @@
+Link para download do Git: Https://git-scm.com/downloads
+
+O Gitbash é um terminal extendido para otimizar o uso do Git.
+
+Anotações da aula:
+Win + R = Abre o CMD
+
+dir = Abre tudo que está na minha pasta atual
+
+cd / = Entra no c do windows, se der o comando dir novamente ele abre tudo que está na pasta atual
+Se digitar o nome de alguma pasta ele entra na pasta digitada. Se apertar a primeira letra da pasta e apertar tab o nome da pasta é completado automaticamente
+
+cd .. = volta para pasta anterior
+
+cls ou ctrl+l = comando para limpar a tela
+
+mkdir nomedapasta = Cria pasta no local atual
+
+echo hello > nomedoarquivo.txt(se quiser criar em outra extensão também pode) = cria um arquivo com o nome descrito e extensão pretendida na pasta atual
+
+del nomedapasta = Apaga todos arquivos da pasta, mas não a pasta. Aparecerá a pergunta se deseja deletar todos arquivos da pasta
+
+rmdir nomedapasta /s /q = deleta a pasta selecionada com todas pastas e arquivos
+
+ls = mostra o que tem na pasta
+
+ls -a = mostra o que tem na pasta incluindo arquivos e pastas ocultas
+
+git status = status do repositório do git
+
+mc nomedoarquivo.ext./novolocal/ = move o arquivo selecionadopara pasta selecionada depois deste comando é necessário adicionar e comitar novamente
+
+git add nomedoarquivo.ext/pastanova = serve para adicionar estes arquivos no stage do git pode-se fazer individual arquivo e depois pasta ou os dois juntos
+
+git add* = seleciona tudo que está na pasta principal de trabalho do gite adiciona os arquivos no stage.
+
+git commit -m = serve para tirar do stage do git para unmodified que é o local que pode ser enviado para nuvem (github)
+
+echo > nomedoarquivo.ext = par criar um novo arquivo na pasta em que está
+
