@@ -8,6 +8,7 @@ function flipCard() {
     if(lockBoard) return;
     if(this === firstCard) return;
 
+    // 'Toggle' deixa clicar e desclicar o item o 'add' deixa clicar somente uma vez.
     this.classList.add('flip');
     if(!hasFlippedCard) {
         hasFlippedCard = true;
